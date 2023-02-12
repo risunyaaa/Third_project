@@ -1,0 +1,20 @@
+body {
+    background-color: black !important;
+    margin: auto !important;
+}
+
+
+@media screen and (min-width: 1921px) {
+  main {
+      max-width: 1920px !important;
+      margin: auto !important;
+  }
+}
+
+
+  
+@media screen and (min-width: 1921px) {
+    .container-fluid {
+      width: 1920px !important;
+    }
+  }

@@ -1,0 +1,52 @@
+
+
+
+footer {
+    color: rgba(255, 255, 255, 0.281) !important;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+
+.text-reset:hover {
+    color: white !important;
+    transition: .3s ;
+    text-decoration: none;
+}
+
+h5 {
+    color: rgb(255, 255, 255) !important;
+}
+
+
+.lastco {
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.coname {
+    display: flex; 
+    justify-content: space-between;
+   
+}
+
+
+.two_co {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 991px) { 
+    .two_co {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 992px) { 
+    .two_co {
+        height: 200px;
+    }
+}

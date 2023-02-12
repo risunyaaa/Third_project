@@ -1,0 +1,60 @@
+.join {
+    background-color: #18181B;
+}
+
+.topy {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.trape_req {
+    height: 400px;
+    display: flex;
+    justify-content:space-around!important;
+    align-items: center;
+    flex-direction: column;
+    clip-path: polygon(10% 0, 100% 0, 90% 100%, 0% 100%);
+    background: #46484B;    
+}
+
+
+.req_input {
+    width: 60% !important;
+    height: 20%;
+}
+
+.req_button {
+    width: 60%;
+    height: 22%;
+    background: #21B22F;
+    box-shadow: 0px 0px 25px rgba(33, 178, 47, 0.5);
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.req_button:hover {
+    background-color: white; /* Green */
+    color:  #21B22F;
+    transition-duration: 0.4s;
+}
+
+.timer {
+    height: 400px;
+    width: 400px;
+}
+
+@media (max-width: 991px) { 
+    .topy {
+        text-align: left;
+    }
+    
+}
